@@ -9,3 +9,5 @@ set sw=2
 
 colorscheme delek
 set background=dark
+
+set hlsearch
