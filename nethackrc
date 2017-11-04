@@ -3,12 +3,9 @@
 # Wizard 20150228
 # Healer 20150310
 
-OPTIONS=large_font
-OPTIONS=color,decgraphics,boulder:0,!use_darkgray
 OPTIONS=autopickup,pickup_types:$!"/=?,pickup_burden:U
-OPTIONS=character:Valkyrie,race:@,align:@,gender:female
+OPTIONS=color,boulder:0,decgraphics,large_font,!use_darkgray
+OPTIONS=character:Rogue,race:@,align:@,gender:female
 OPTIONS=fruit:mango
 OPTIONS=pettype:cat,horsename:Trigger,dogname:Dominic,catname:Amanda
-OPTIONS=time,showexp
-OPTIONS=autodig,autoquiver
-
+OPTIONS=autodig,autoquiver,showexp,time
