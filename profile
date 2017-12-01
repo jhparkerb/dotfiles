@@ -17,7 +17,7 @@ echo $PATH | fgrep -v -q sw &&
 	[ -d /sw ] &&
 	export PATH=/sw/libexec/gnubin:/sw/sbin:/sw/bin:$PATH
 
-echo $PATH | fgrep -v -q $HOME &&
+echo $PATH | fgrep -v -q ${HOME}/bin &&
 	[ -d ${HOME}/bin ] &&
 	export PATH=${HOME}/bin:$PATH
 
