@@ -24,3 +24,7 @@ echo $PATH | fgrep -v -q ${HOME}/bin &&
 export GOROOT=/go
 export GOPATH=$HOME/Projects/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+# gnupg v2 needs GPG_TTY set to use pinentry-curses; why there's no reasonable
+# default provided is, of course, a complete god-damn mystery.
+[ -f /sw/bin/pinentry-curses ] && export GPG_TTY=$(tty)
