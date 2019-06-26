@@ -23,4 +23,6 @@ echo $PATH | fgrep -v -q ${HOME}/bin &&
 
 # gnupg v2 needs GPG_TTY set to use pinentry-curses; why there's no reasonable
 # default provided is, of course, a complete god-damn mystery.
-[ -f /sw/bin/pinentry-curses ] && export GPG_TTY=$(tty)
+[ -f /sw/bin/pinentry-curses ] && export GPG_TTY=$(tty) || true
+
+which lesspipe >/dev/null 2>&1 && eval $(lesspipe)
