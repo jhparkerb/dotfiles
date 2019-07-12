@@ -2,4 +2,3 @@
 name = Jason Parker-Burlingham
 email = jasonp@panix.com
 [credential]
-	helper = osxkeychain
