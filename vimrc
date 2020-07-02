@@ -11,3 +11,7 @@ colorscheme delek
 set background=dark
 
 set hlsearch
+
+" set bash-like completion for filenames
+" https://stackoverflow.com/questions/526858/how-do-i-make-vim-do-normal-bash-like-tab-completion-for-file-names#526940
+set wildmode=longest,list
