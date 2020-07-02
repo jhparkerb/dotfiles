@@ -6,6 +6,7 @@ syntax on
 
 set ts=2
 set sw=2
+set ttyfast
 
 colorscheme delek
 set background=dark
