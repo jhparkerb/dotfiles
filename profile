@@ -33,3 +33,5 @@ echo $PATH | fgrep -v -q ${HOME}/bin &&
 which lesspipe >/dev/null 2>&1 && eval $(lesspipe)
 
 ls --color / >/dev/null 2>&1 && alias ls='ls --color=auto -p'
+
+export BASH_SILENCE_DEPRECATION_WARNING=1
