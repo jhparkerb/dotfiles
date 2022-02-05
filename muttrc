@@ -1,0 +1,23 @@
+set ssl_force_tls = yes
+set sort = "threads"
+set copy = no
+
+set from = "jasonp@panix.com"
+set realname = "Jason Parker-Burlingham"
+
+# Imap settings
+set imap_user = "jason.parker.burlingham@gmail.com"
+set imap_pass = "`cat ~/.mutt_imap_pass`"
+
+# Smtp settings
+set smtp_url = "smtps://jason.parker.burlingham@smtp.gmail.com"
+set smtp_pass = "`cat ~/.mutt_imap_pass`"
+
+# Remote gmail folders
+set folder = "imaps://imap.gmail.com/"
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+#set record = "+[Gmail]/Sent Mail"
+unset record
+#set trash = "+[Gmail]/Trash"
+unset trash
